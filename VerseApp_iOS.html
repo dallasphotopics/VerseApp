@@ -78,6 +78,7 @@
 
   .dropdown-translation {
     flex: 1;
+	margin-bottom: 14px;
   }
 
   .dropdown-voiceSelect {
@@ -224,7 +225,7 @@
 <div class="container-main">
 
   <!-- MODIFY - HEADER NAME -->
-  <h1>EMAW Verse Pack 2</h1>
+  <h1>EMAW Verse Pack</h1>
 
   <div class="dropdown-container">
     <!-- --- FIXED: added onclick="" so iOS Safari treats it as tappable --- -->
@@ -236,18 +237,28 @@
         <label><input type="checkbox" value="verse002">  002 - 2 Timothy 3:16-17</label>
         <label><input type="checkbox" value="verse003">  003 - Joshua 1:8</label>
         <label><input type="checkbox" value="verse004">  004 - John 16:24</label>
-        <label><input type="checkbox" value="verse005">  005 - James 1:22</label>
-        <label><input type="checkbox" value="verse006">  006 - Hebrews 12:11</label>
-        <label><input type="checkbox" value="verse007">  007 - Genesis 2:18</label>
-        <label><input type="checkbox" value="verse008">  008 - Ephesians 5:25</label>
-        <label><input type="checkbox" value="verse009">  009 - Ephesians 6:4</label>
-        <label><input type="checkbox" value="verse010">  010 - Proverbs 18:21</label>
+        <label><input type="checkbox" value="verse005">  005 - Philippians 4:6-7</label>
+        <label><input type="checkbox" value="verse006">  006 - James 1:22</label>
+        <label><input type="checkbox" value="verse007">  007 - Hebrews 12:11</label>
+        <label><input type="checkbox" value="verse008">  008 - Genesis 2:18</label>
+        <label><input type="checkbox" value="verse009">  009 - Ephesians 5:25</label>
+        <label><input type="checkbox" value="verse010">  010 - Marriage Commitment</label>
         <label><input type="checkbox" value="verse011">  011 - 1 Peter 4:19</label>
-        <label><input type="checkbox" value="verse012">  012 - Proverbs 22:7</label>
-        <label><input type="checkbox" value="verse013">  013 - Ecclesiastes 11:2</label>
-        <label><input type="checkbox" value="verse014">  014 - Matthew 11:28-30</label>
-        <label><input type="checkbox" value="verse015">  015 - Matthew 28:18-20</label>
-        <label><input type="checkbox" value="verse016">  016 - Colossians 3:23-24</label>
+        <label><input type="checkbox" value="verse012">  012 - 1 Peter 3:7</label>
+        <label><input type="checkbox" value="verse013">  013 - 3 Biblical Principles</label>
+        <label><input type="checkbox" value="verse014">  014 - Ephesians 6:4</label>
+        <label><input type="checkbox" value="verse015">  015 - Proverbs 18:21</label>
+        <label><input type="checkbox" value="verse016">  016 - Proverbs 18:13</label>
+        <label><input type="checkbox" value="verse017">  017 - 1 Peter 3:8-9</label>
+        <label><input type="checkbox" value="verse018">  018 - Mark 4:19</label>
+        <label><input type="checkbox" value="verse019">  019 - Proverbs 22:7</label>
+        <label><input type="checkbox" value="verse020">  020 - Ecclesiastes 11:2</label>
+        <label><input type="checkbox" value="verse021">  021 - 1 Timothy 6:18-19</label>
+        <label><input type="checkbox" value="verse022">  022 - James 1:2-4</label>
+        <label><input type="checkbox" value="verse023">  023 - Matthew 11:28-30</label>
+        <label><input type="checkbox" value="verse024">  024 - Matthew 28:18-20</label>
+        <label><input type="checkbox" value="verse025">  025 - 1 Corinthians 6:20</label>
+        <label><input type="checkbox" value="verse026">  026 - Colossians 3:23-24</label>
       </div>
     </div>
 
@@ -271,16 +282,17 @@
 
   <div class="clear-all-btn" id="clearAllBtn">❌ Clear</div>
 
+  <div class="verses" id="verseDisplay"></div>
+
   <details>
 	<summary>© Info</summary>
 	<p>ESV: Scripture quotations marked “ESV” are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved. The ESV text may not be quoted in any publication made available to the public by a Creative Commons license. ESV may not be translated into any other language.
 	<br>-------------------<br>
 	NIV: Scripture quotations taken from The Holy Bible, New International Version®, NIV®. Copyright © 1973, 1978, 1984, 2011 by Biblica, Inc. Used with permission of Zondervan. All rights reserved worldwide. www.zondervan.com Scripture quotations taken from The Holy Bible, New International Version®, NIV®. Copyright © 1973, 1978, 1984, 2011 by Biblica, Inc. Used with permission of Zondervan. All rights reserved worldwide. www.zondervan.com
 
-Users may not copy or download more than 500 verses of the ESV Bible or more than one half of any book of the ESV Bible.</p>
+	Users may not copy or download more than 500 verses of the ESV Bible or more than one half of any book of the ESV Bible.</p>
   </details>
 
-  <div class="verses" id="verseDisplay"></div>
 </div>
 
 <script>
@@ -328,40 +340,40 @@ Example:
     ASV: 'Hitherto have ye asked nothing in my name: ask, and ye shall receive, that your joy may be made full.',
   },
   verse005: {
+    ref: 'Philippians 4:6-7',
+    NIV: 'Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.',
+    ESV: 'do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.',
+    ASV: 'In nothing be anxious; but in everything by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall guard your hearts and your thoughts in Christ Jesus.',
+  },
+  verse006: {
     ref: 'James 1:22',
     NIV: 'Do not merely listen to the word, and so deceive yourselves. Do what it says.',
     ESV: 'But be doers of the word, and not hearers only, deceiving yourselves.',
     ASV: 'But be ye doers of the word, and not hearers only, deluding your own selves.',
   },
-  verse006: {
+  verse007: {
     ref: 'Hebrews 12:11',
     NIV: 'No discipline seems pleasant at the time, but painful. Later on, however, it produces a harvest of righteousness and peace for those who have been trained by it.',
     ESV: 'For the moment all discipline seems painful rather than pleasant, but later it yields the peaceful fruit of righteousness to those who have been trained by it.',
     ASV: 'All chastening seemeth for the present to be not joyous but grievous; yet afterward it yieldeth peaceable fruit unto them that have been exercised thereby, even the fruit of righteousness.',
   },
-  verse007: {
+  verse008: {
     ref: 'Genesis 2:18',
     NIV: 'The LORD God said, “It is not good for the man to be alone. I will make a helper suitable for him.”',
     ESV: 'Then the LORD God said, “It is not good that the man should be alone; I will make him a helper fit for him.”',
     ASV: 'And Jehovah God said, It is not good that the man should be alone; I will make him a help meet for him.',
   },
-  verse008: {
+  verse009: {
     ref: 'Ephesians 5:25',
     NIV: 'Husbands, love your wives, just as Christ loved the church and gave himself up for her',
     ESV: 'Husbands, love your wives, as Christ loved the church and gave himself up for her',
     ASV: 'Husbands, love your wives, even as Christ also loved the church, and gave himself up for it',
   },
-  verse009: {
-    ref: 'Ephesians 6:4',
-    NIV: 'Fathers, do not exasperate your children; instead, bring them up in the training and instruction of the Lord.',
-    ESV: 'Fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.',
-    ASV: 'And, ye fathers, provoke not your children to wrath: but nurture them in the chastening and admonition of the Lord.',
-  },
   verse010: {
-    ref: 'Proverbs 18:21',
-    NIV: 'The tongue has the power of life and death, and those who love it will eat its fruit.',
-    ESV: 'Death and life are in the power of the tongue, and those who love it will eat its fruits.',
-    ASV: 'Death and life are in the power of the tongue; And they that love it shall eat the fruit thereof.',
+    ref: 'My Marriage Commitment',
+    NIV: 'It is my privilege, to show my love for Jesus by caring for my wife, to love her, show her honor, try to understand her and to give up my life and rights for her.',
+    ESV: 'It is my privilege, to show my love for Jesus by caring for my wife, to love her, show her honor, try to understand her and to give up my life and rights for her.',
+    ASV: 'It is my privilege, to show my love for Jesus by caring for my wife, to love her, show her honor, try to understand her and to give up my life and rights for her.',
   },
   verse011: {
     ref: '1 Peter 4:19',
@@ -370,35 +382,95 @@ Example:
     ASV: 'Wherefore let them also that suffer according to the will of God commit their souls in well-doing unto a faithful Creator.',
   },
   verse012: {
+    ref: '1 Peter 3:7',
+    NIV: 'Husbands, in the same way be considerate as you live with your wives, and treat them with respect as the weaker partner and as heirs with you of the gracious gift of life, so that nothing will hinder your prayers.',
+    ESV: 'Likewise, husbands, live with your wives in an understanding way, showing honor to the woman as the weaker vessel, since they are heirs with you of the grace of life, so that your prayers may not be hindered.',
+    ASV: 'Ye husbands, in like manner, dwell with your wives according to knowledge, giving honor unto the woman, as unto the weaker vessel, as being also joint-heirs of the grace of life; to the end that your prayers be not hindered.',
+  },
+  verse013: {
+    ref: 'Three Biblical Principles for Raising Children',
+    NIV: 'It is the father\'s God-given responsibility to train his children. Ephesians 6:4. --- Children get their self-image from what they believe Dad thinks about them. Proverbs 17:6. --- The words spoken to a child will determine his destiny. Proverbs 18:21.',
+    ESV: 'It is the father\'s God-given responsibility to train his children. Ephesians 6:4. --- Children get their self-image from what they believe Dad thinks about them. Proverbs 17:6. --- The words spoken to a child will determine his destiny. Proverbs 18:21.',
+    ASV: 'It is the father\'s God-given responsibility to train his children. Ephesians 6:4. --- Children get their self-image from what they believe Dad thinks about them. Proverbs 17:6. --- The words spoken to a child will determine his destiny. Proverbs 18:21.',
+  },
+  verse014: {
+    ref: 'Ephesians 6:4',
+    NIV: 'Fathers, do not exasperate your children; instead, bring them up in the training and instruction of the Lord.',
+    ESV: 'Fathers, do not provoke your children to anger, but bring them up in the discipline and instruction of the Lord.',
+    ASV: 'And, ye fathers, provoke not your children to wrath: but nurture them in the chastening and admonition of the Lord.',
+  },
+  verse015: {
+    ref: 'Proverbs 18:21',
+    NIV: 'The tongue has the power of life and death, and those who love it will eat its fruit.',
+    ESV: 'Death and life are in the power of the tongue, and those who love it will eat its fruits.',
+    ASV: 'Death and life are in the power of the tongue; And they that love it shall eat the fruit thereof.',
+  },
+  verse016: {
+    ref: 'Proverbs 18:13',
+    NIV: 'To answer before listening— that is folly and shame.',
+    ESV: 'If one gives an answer before he hears, it is his folly and shame.',
+    ASV: 'He that giveth answer before he heareth, It is folly and shame unto him.',
+  },
+  verse017: {
+    ref: '1 Peter 3:8-9',
+    NIV: 'Finally, all of you, be like-minded, be sympathetic, love one another, be compassionate and humble. Do not repay evil with evil or insult with insult. On the contrary, repay evil with blessing, because to this you were called so that you may inherit a blessing.',
+    ESV: 'Finally, all of you, have unity of mind, sympathy, brotherly love, a tender heart, and a humble mind. Do not repay evil for evil or reviling for reviling, but on the contrary, bless, for to this you were called, that you may obtain a blessing.',
+    ASV: 'Finally, be ye all likeminded, compassionate, loving as brethren, tenderhearted, humbleminded: not rendering evil for evil, or reviling for reviling; but contrariwise blessing; for hereunto were ye called, that ye should inherit a blessing.',
+  },
+  verse018: {
+    ref: 'Mark 4:19',
+    NIV: 'but the worries of this life, the deceitfulness of wealth and the desires for other things come in and choke the word, making it unfruitful.',
+    ESV: 'but the cares of the world and the deceitfulness of riches and the desires for other things enter in and choke the word, and it proves unfruitful.',
+    ASV: 'and the cares of the world, and the deceitfulness of riches, and the lusts of other things entering in, choke the word, and it becometh unfruitful.',
+  },
+  verse019: {
     ref: 'Proverbs 22:7',
     NIV: 'The rich rule over the poor, and the borrower is slave to the lender.',
     ESV: 'The rich rules over the poor, and the borrower is the slave of the lender.',
     ASV: 'The rich ruleth over the poor; And the borrower is servant to the lender.',
   },
-  verse013: {
+  verse020: {
     ref: 'Ecclesiastes 11:2',
     NIV: 'Invest in seven ventures, yes, in eight; you do not know what disaster may come upon the land.',
     ESV: 'Give a portion to seven, or even to eight, for you know not what disaster may happen on earth.',
     ASV: 'Give a portion to seven, yea, even unto eight; for thou knowest not what evil shall be upon the earth.',
   },
-  verse014: {
+  verse021: {
+    ref: '1 Timothy 6:18-19',
+    NIV: 'Command them to do good, to be rich in good deeds, and to be generous and willing to ',
+    ESV: 'They are to do good, to be rich in good works, to be generous and ready to ',
+    ASV: 'that they do good, that they be rich in good works, that they be ready to distribute, willing to communicate; laying up in store for themselves a good foundation against the time to come, that they may lay hold on the life which is life indeed.',
+  },
+  verse022: {
+    ref: 'James 1:2-4',
+    NIV: 'Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance. Let perseverance finish its work so that you may be mature and complete, not lacking anything.',
+    ESV: 'Count it all joy, my brothers, when you meet trials of various kinds, for you know that the testing of your faith produces steadfastness. And let steadfastness have its full effect, that you may be perfect and complete, lacking in nothing.',
+    ASV: 'Count it all joy, my brethren, when ye fall into manifold temptations; knowing that the proving of your faith worketh patience. And let patience have its perfect work, that ye may be perfect and entire, lacking in nothing.',
+  },
+  verse023: {
     ref: 'Matthew 11:28-30',
     NIV: '“Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. For my yoke is easy and my burden is light.”',
     ESV: 'Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light.”',
     ASV: 'Come unto me, all ye that labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light.',
   },
-  verse015: {
+  verse024: {
     ref: 'Matthew 28:18-20',
     NIV: 'Then Jesus came to them and said, “All authority in heaven and on earth has been given to me. Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.”',
     ESV: 'And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them inthe name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.”',
     ASV: 'And Jesus came to them and spake unto them, saying, All authority hath been given unto me in heaven and on earth. Go ye therefore, and make disciples of all the nations, baptizing them into the name of the Father and of the Son and of the Holy Spirit: teaching them to observe all things whatsoever I commanded you: and lo, I am with you always, even unto the end of the world.',
   },
-  verse016: {
+  verse025: {
+    ref: '1 Corinthians 6:20',
+    NIV: 'you were bought at a price. Therefore honor God with your bodies.',
+    ESV: 'for you were bought with a price. So glorify God in your body.',
+    ASV: 'for ye were bought with a price: glorify God therefore in your body.',
+  },
+  verse026: {
     ref: 'Colossians 3:23-24',
     NIV: 'Whatever you do, work at it with all your heart, as working for the Lord, not for human masters, since you know that you will receive an inheritance from the Lord as a reward. It is the Lord Christ you are serving.',
     ESV: 'Whatever you do, work heartily, as for the Lord and not for men, knowing that from the Lord you will receive the inheritance as your reward. You are serving the Lord Christ.',
     ASV: 'whatsoever ye do, work heartily, as unto the Lord, and not unto men; knowing that from the Lord ye shall receive the recompense of the inheritance: ye serve the Lord Christ.',
-  }
+  },
 };
 
 if (window.innerWidth <= 768) voiceSelect.style.display = 'none';
@@ -582,4 +654,3 @@ stopBtn.addEventListener('click', () => {
 </script>
 </body>
 </html>
-
